@@ -16,6 +16,7 @@ public class RunList {
     public static RunList getInstance() {
         if(ourInstance==null){
             ourInstance = new RunList();
+            
         }
         return ourInstance;
     }
